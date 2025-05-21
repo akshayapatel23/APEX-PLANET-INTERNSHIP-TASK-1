@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;       
+  margin: 0;         
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* fallback color */
+  background-image: url('backgroundimage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* dark semi-transparent layer */
+  height: 100%;
+  padding: 30px;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+}
+
+img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #1a73e8;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
